@@ -2,9 +2,9 @@ _punch () {
   local cur=${words[CURRENT]}
 
   if [[ ${cur} == -* ]]; then
-    compadd `~/.rbenv/versions/2.2.3/bin/ruby ~/git/rb/punch/punch.rb --options`
+    compadd `punch --options`
   else
-    compadd `~/.rbenv/versions/2.2.3/bin/ruby ~/git/rb/punch/punch.rb --cards`
+    compadd `punch --cards`
   fi
 }
 
