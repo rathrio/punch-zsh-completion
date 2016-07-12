@@ -8,4 +8,4 @@ _punch () {
   fi
 }
 
-compdef _punch punch.rb
+compdef _punch punch
